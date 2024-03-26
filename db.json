@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "title": "Which of the following tags is used to define a hyperlink in HTMLLL ?",
+      "correctAnswer": "<a>",
+      "options": [
+        "<a>",
+        "<link>",
+        "<herf>",
+        "<link>"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "What does the 'href' attribute define in an HTML <a> tag",
+      "correctAnswer": "Hypertext reference",
+      "options": [
+        "Header reference",
+        "Hyperlink reference",
+        "Hypertext reference",
+        "Hierarchy reference"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "What is my name ?",
+      "correctAnswer": "Prazol",
+      "options": [
+        "Prazol",
+        "Bara",
+        "Upreti",
+        "Kc"
+      ]
+    }
+  ]
+}

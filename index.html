@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+
+    <div class="add">
+        <form action="" id="add-form">
+            <h1>Add Question</h1>
+            <label for="id">Id</label>
+            <input type="number" name="id" id="id" required>
+            <br>
+            <br>
+            <label for="question">question</label>
+            <input type="text" name="question" id="question" required>
+            <br>
+            <br>
+            <label for="correctAns">Correct Answer</label>
+            <input type="text" name="correctAns" id="correctAns" required>
+            <br>
+            <br>
+            <label for="correctAns">Options</label>
+            <input type="text" name="opt1" id="opt1" required>
+            <input type="text" name="opt2" id="opt2" required>
+            <input type="text" name="opt3" id="opt3" required>
+            <input type="text" name="opt4" id="opt4" required>   
+            <input type="submit" id="submit" value="add question">
+        </form>
+        
+    </div>
+    <div class="edit invisible">
+        <h1>Edit</h1>
+    <form action="" id="edit-form">
+        <h1>Edit Question</h1>
+        <label for="id">Id</label>
+        <input type="number" name="id" id="edit-id" disabled>
+        <br>
+        <br>
+        <label for="edit-question">question</label>
+        <input style="width: 500px;" type="text" name="question" id="edit-question" required>
+        <br>
+        <br>
+        <label for="correctAns">Correct Answer</label>
+        <input type="text" name="edit-correctAns" id="edit-correctAns" required>
+        <br>
+        <br>
+        <label for="correctAns">Options</label>
+        <input type="text" name="edit-opt1" id="edit-opt1" required>
+        <input type="text" name="edit-opt2" id="edit-opt2" required>
+        <input type="text" name="edit-opt3" id="edit-opt3" required>
+        <input type="text" name="edit-opt4" id="edit-opt4" required>   
+        <input type="submit" id="submit" value="update"> 
+    </form>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
