@@ -100,7 +100,7 @@ const editQuestion = function(id){
         let level = document.getElementById('edit-level').value;
         let updatedQuestion = {id:id,title:title,
         correctAnswer:correctAnswer,options:[opt1,opt2,opt3,opt4],
-        level:level  
+        
         };
         fetch(`http://localhost:3000/questions/${id}`,{
             method:'PATCH',
@@ -113,5 +113,7 @@ const editQuestion = function(id){
         document.querySelector('.add').classList.add('visible');
         document.querySelector('.edit').classList.add('invisible'); 
     })
+
+    
 }
 

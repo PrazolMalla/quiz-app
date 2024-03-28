@@ -2,7 +2,7 @@
   "questions": [
     {
       "id": "1",
-      "title": "Which of the following tags is used to define a hyperlink in HTMLLL ?",
+      "title": "Which of the following tags is used to define a hyperlink in HTML ?",
       "correctAnswer": "<a>",
       "options": [
         "a",
@@ -47,6 +47,18 @@
         "term"
       ],
       "level": "hard"
+    },
+    {
+      "id": "5",
+      "title": "who is barakoti gf?",
+      "correctAnswer": "leah",
+      "options": [
+        "leah",
+        "sudip",
+        "kalyan",
+        "dhakal"
+      ],
+      "level": "easy"
     }
   ]
 }
