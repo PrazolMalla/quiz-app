@@ -5,14 +5,15 @@
       "title": "Which of the following tags is used to define a hyperlink in HTMLLL ?",
       "correctAnswer": "<a>",
       "options": [
-        "<a>",
-        "<link>",
-        "<herf>",
-        "<link>"
-      ]
+        "a",
+        "link",
+        "herf",
+        "link"
+      ],
+      "level": "easy"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "What does the 'href' attribute define in an HTML <a> tag",
       "correctAnswer": "Hypertext reference",
       "options": [
@@ -20,10 +21,11 @@
         "Hyperlink reference",
         "Hypertext reference",
         "Hierarchy reference"
-      ]
+      ],
+      "level": "medium"
     },
     {
-      "id": "6",
+      "id": "3",
       "title": "What is my name ?",
       "correctAnswer": "Prazol",
       "options": [
@@ -31,7 +33,32 @@
         "Bara",
         "Upreti",
         "Kc"
-      ]
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "4",
+      "title": "What is https",
+      "correctAnswer": "protocol",
+      "options": [
+        "keyword",
+        "protocol",
+        "name",
+        "term"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "5",
+      "title": "What is programming",
+      "correctAnswer": "Nonsense",
+      "options": [
+        "Nonsense",
+        "good ",
+        "life ",
+        "gandu"
+      ],
+      "level": "easy"
     }
   ]
 }

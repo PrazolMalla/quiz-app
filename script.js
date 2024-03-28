@@ -61,8 +61,11 @@ document.getElementById('add-form').addEventListener('submit',function(e){
     let opt2 = document.getElementById('opt2').value;
     let opt3 = document.getElementById('opt3').value;
     let opt4 = document.getElementById('opt4').value;
+    let level = document.getElementById('level').value;
     let newQuestion = {id:id,title:title,
-    correctAnswer:correctAnswer,options:[opt1,opt2,opt3,opt4]};
+    correctAnswer:correctAnswer,options:[opt1,opt2,opt3,opt4],
+    level:level    
+    };
     addQuestion(newQuestion);
     
 })
@@ -80,6 +83,7 @@ const editQuestion = function(id){
         document.getElementById('edit-opt2').value=data.options[1];
         document.getElementById('edit-opt3').value=data.options[2];
         document.getElementById('edit-opt4').value=data.options[3];
+        document.getElementById('level').value = data.level
     })
     
     document.getElementById('edit-form').addEventListener('submit',function(e){
@@ -93,8 +97,11 @@ const editQuestion = function(id){
         let opt2 = document.getElementById('edit-opt2').value;
         let opt3 = document.getElementById('edit-opt3').value;
         let opt4 = document.getElementById('edit-opt4').value;
+        let level = document.getElementById('edit-level').value;
         let updatedQuestion = {id:id,title:title,
-        correctAnswer:correctAnswer,options:[opt1,opt2,opt3,opt4]};
+        correctAnswer:correctAnswer,options:[opt1,opt2,opt3,opt4],
+        level:level  
+        };
         fetch(`http://localhost:3000/questions/${id}`,{
             method:'PATCH',
             headers:{
