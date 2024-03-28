@@ -47,18 +47,6 @@
         "term"
       ],
       "level": "hard"
-    },
-    {
-      "id": "5",
-      "title": "What is programming",
-      "correctAnswer": "Nonsense",
-      "options": [
-        "Nonsense",
-        "good ",
-        "life ",
-        "gandu"
-      ],
-      "level": "easy"
     }
   ]
 }
