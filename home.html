@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container welcome-container">
         <h1>Welcome to the Quiz</h1>
-        <button class="start-game">Start Game</button>
-        <button class="leaderboard">Leaderboard</button>
+        <div class="cta">
+            <button class="btn-1" id="start-game">Start Game</button>
+            <button class="btn-2" id="leaderboard">Leaderboard</button>    
+        </div>
     </div>
+    <div class="level-container container invisible">
+        <button class="back-1 btn-2">back</button>
+        <h1>Select a Level</h1>
+        <div class="cta">
+            <button class="level btn-1">Easy</button>
+            <button class="level btn-1">Medium</button>    
+            <button class="level btn-1">Hard</button>    
+        </div>
+    </div>
+    <div class="question-container container invisible">
+        <button class="back-2 btn-2">back</button>
+        <div class="questions-section">
+            
+        </div>
+        <button class="next btn-2">Next</button>
+        <br>
+        <button class="result btn-2">Result</button>
+    </div>
+   
+    <script src="/assets/js/quiz.js"></script>
 </body>
 </html>
